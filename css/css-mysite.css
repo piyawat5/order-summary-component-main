@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 120rem 18rem;
+  background-color: hsl(230, 79%, 94%);
+}
+.main-container {
+  border-radius: 1.2rem;
+  width: 28.125rem;
+  text-align: center;
+  font-size: 1rem;
+  background-color: white;
+}
+
+.hero-image {
+  border-top-right-radius: 1.2rem;
+  border-top-left-radius: 1.2rem;
+}
+.sub-container {
+  padding: 1rem 1.5rem;
+}
+
+.head {
+  width: 80%;
+  margin: auto;
+
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(224, 23%, 55%);
+}
+
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.mid {
+  border-radius: 0.8rem;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon-music {
+  /* margin-left: 1rem; */
+}
+h2 {
+  font-size: 1rem;
+}
+
+.annual-plan {
+  line-height: 0.3;
+  margin-right: 3rem;
+}
+p {
+}
+.payment {
+  border-radius: 0.8rem;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem 1rem;
+  background-color: hsl(245, 75%, 52%);
+  color: aliceblue;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+}
+
+.payment:hover {
+  opacity: 0.7;
+}
+
+.cancel {
+  margin-bottom: 2.3rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+}
+
+.cancel-order {
+  text-decoration: none;
+  color: black;
+}
+.attribution {
+  background-color: hsl(230, 79%, 94%);
+}
+
+@media (max-width: 426px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 120rem 18rem;
+    background-color: hsl(230, 79%, 94%);
+  }
+  .main-container {
+    border-radius: 1.2rem;
+    width: 20rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: white;
+  }
+  .hero-image {
+    width: 100%;
+    border-top-right-radius: 1.2rem;
+    border-top-left-radius: 1.2rem;
+  }
+  .sub-container {
+    padding: 1rem 0.5rem;
+  }
+  h2 {
+    font-size: 0.7rem;
+  }
+}
